@@ -88,8 +88,7 @@ Iznad 90% gornji red naizmjence trepće `!! ISPRAZNI !!`.
 
 Sve se odmah sprema u EEPROM i preživljava reset i odspajanje baterije.
 `p` ispisuje trenutno stanje, `r` vraća tvorničke vrijednosti.
-`i` skenira I2C — ako LCD ostane prazan, vjerojatno je na 0x3F umjesto
-0x27, promijeni `LCD_I2C_ADDR` u `config.h`.
+`i` skenira I2C — ako LCD ostane prazan
 
 Dugi pritisak gumba (1.5 s) tarira vagu bez računala.
 
